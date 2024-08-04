@@ -105,9 +105,8 @@ The Customer Management System is divided into two main steps:
      ```
 3. **Frontend Setup**:
 
-   -You after the first setus you can activate both front end and backend at the same time by : 
-
-     ``` ```bash
+   - You after the first setus you can activate both front end and backend at the same time by : 
+     ```bash
      npm start
      ```
 
