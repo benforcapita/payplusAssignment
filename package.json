@@ -1,0 +1,17 @@
+{
+  "name": "payplusdevelopertest",
+  "version": "1.0.0",
+  "description": "This project is a Customer Management System designed for PayPlus as part of a developer test. The system allows users to log in, manage customers, and perform various actions such as creating new customers and viewing customer details.",
+  "main": "index.js",
+  "scripts": {
+   "start": "concurrently \"npm run start:backend\" \"npm run start:frontend\"",
+    "start:backend": "cd backend && npm start",
+    "start:frontend": "cd frontend && npm start"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
